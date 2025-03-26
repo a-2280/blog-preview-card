@@ -47,7 +47,7 @@ body {
   font-family: "Figtree", sans-serif;
   box-shadow: 10px 10px var(--dark-gray);
   border-radius: 20px;
-  max-width: 17rem;
+  width: 17rem;
   border: 1.5px solid var(--dark-gray);
 }
 
@@ -97,4 +97,10 @@ figure img {
 .author p {
   font-family: "Figtree-Bolder", sans-serif;
   font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  .content-container {
+    width: 20rem;
+  }
 }
