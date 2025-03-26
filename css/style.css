@@ -48,6 +48,7 @@ body {
   box-shadow: 10px 10px var(--dark-gray);
   border-radius: 20px;
   max-width: 17rem;
+  border: 1.5px solid var(--dark-gray);
 }
 
 figure img {
@@ -95,4 +96,5 @@ figure img {
 
 .author p {
   font-family: "Figtree-Bolder", sans-serif;
+  font-size: 0.9rem;
 }
